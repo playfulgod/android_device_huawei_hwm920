@@ -9,7 +9,7 @@ TARGET_CPU_ABI := armeabi
 TARGET_BOOTLOADER_BOARD_NAME := hwm920
 
 BOARD_KERNEL_CMDLINE := mem=466M@0x12c00000 androidboot.hardware=qcom
-BOARD_KERNEL_BASE := 0x12C00000
+BOARD_KERNEL_BASE := 0x12c00000
 BOARD_KERNEL_PAGESIZE := 4096
 
 # fix this up by examining /proc/mtd on a running device
